@@ -1,0 +1,31 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="fiorirestdestination.controller.View1" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					    <sap.ui.layout:VerticalLayout width="100%" xmlns:sap.ui.layout="sap.ui.layout" id="layout0">
+					        <sap.ui.layout:content>
+					            <Button xmlns="sap.m" text="Go!" id="button1" press="onPressGo"/>
+					        </sap.ui.layout:content>
+					    </sap.ui.layout:VerticalLayout>
+					    <Panel xmlns="sap.m" width="auto" expanded="true" id="panel0">
+					        <headerToolbar>
+					            <Toolbar id="toolbar1">
+					                <Title text="Result" />
+					                <ToolbarSpacer/>
+					               
+					                </Toolbar>
+					            
+					        </headerToolbar>
+					        <content>
+					            <Text id="txtResult" width="100%"/>
+					            
+					        </content>
+					        </Panel>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
